@@ -10,7 +10,7 @@ const Projects: CollectionConfig = {
     useAsTitle: "alt",
   },
   upload: {
-    staticDir: path.resolve(__dirname, "../../../media"),
+    staticDir: path.resolve(__dirname, "../../media"),
   },
   fields: [
     {
