@@ -6,6 +6,9 @@ const Projects: CollectionConfig = {
   access: {
     read: () => true,
   },
+  admin: {
+    useAsTitle: "alt",
+  },
   upload: {
     staticDir: path.resolve(__dirname, "../../../media"),
   },
